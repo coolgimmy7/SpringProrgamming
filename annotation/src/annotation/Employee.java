@@ -1,6 +1,8 @@
 package annotation;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.core.annotation.Order;
 
 public class Employee {
 	private int identity;
@@ -11,7 +13,8 @@ public class Employee {
 	}
 
 	@Autowired
-	public Employee(Address address) {
+	public Employee(//@Qualifier("add1")
+	Address address) {
 		this.address = address;
 	}
 
@@ -23,11 +26,7 @@ public class Employee {
 		this.name = name;
 	}
 
-	public void setHeart(Address add) {
-		this.address = add;
-	}
-
-	public void startpump() {
+	public void show() {
 		if (address != null) {
 			// if @Autowired is written
 			System.out.println(identity + " " + name);

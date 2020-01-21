@@ -12,7 +12,6 @@ public class Employee {
 	public Employee() {
 	}
 
-	// @Autowired
 	public Employee(int id, String name, demo.address address) {
 		this.id = id;
 		this.name = name;

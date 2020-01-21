@@ -15,7 +15,7 @@ public class Testusingresource {
 		Employee emp = (Employee) factory.getBean("emp1");
 		emp.displayInfo();
 
-		// autowired by name
+		// autowired by type
 		Employee emp2 = (Employee) factory.getBean("emp2");
 		emp2.displayInfo();
 

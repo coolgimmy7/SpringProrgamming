@@ -1,4 +1,4 @@
-package com.mcnz.ioc.example;
+package com.ioc.example;
 
 public class Score {
 	

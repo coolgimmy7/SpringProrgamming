@@ -4,6 +4,6 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans 
 	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-	<bean id="scores" class="com.mcnz.ioc.example.Score"/>
+	<bean id="scores" class="com.ioc.example.Score"/>
 
 </beans>

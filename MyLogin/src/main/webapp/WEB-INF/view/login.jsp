@@ -4,12 +4,11 @@
 
 <!DOCTYPE html>
 <html>
+<head>
+<meta charset="UTF-8">
+<title>login here</title>
+</head>
 <body>
-	<form action="form">
-		<h2>Login here.....</h2>
-		<input type="text" name="user" /><br> <input type="text"
-			name="pass" /><br> <input type="submit" name="login">
-
-	</form>
+	<h2>welcome ${message}</h2>
 </body>
 </html>
